@@ -1,0 +1,54 @@
+page-home {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h3 {
+        color: #333333;
+        display: block;
+        position: relative;
+        top: 80px;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .batimento p {
+        font-size: 2.5em;
+        text-align: center;
+        color: aliceblue;
+        display: block;
+        position: relative;
+        top: 140px;
+        width: 100%;
+    }
+
+    .batimento {
+        margin: 50px auto 10px auto;
+        height: 55%;
+        width: 100%;
+        background-image: url("../assets/imgs/coracao.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #bom {
+        display: block;
+        width: 100%;
+    }
+
+    .estado {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        color: #2afc5f;
+    }
+
+    .estado p {
+        font-size: 1.5em;
+
+    }
+
+}

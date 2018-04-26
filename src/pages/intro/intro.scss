@@ -1,0 +1,57 @@
+page-intro {
+
+    page-intro * {
+        font-family: initial;
+        color: currentColor;
+    }
+    .error {
+        color: #ff0000;
+        font-size: 12px;
+    }
+
+    .campo {
+        margin: 20px auto 20px auto;
+    }
+
+    .nome-button {
+        width: 90%;
+        margin: 20px auto 20px auto;
+    }
+
+    span.msg, span.msg2 {
+        display: block;
+        position: relative;
+        top: 25%;
+    }
+
+    a {
+        display: block;
+        position: relative;
+        top: 30%;
+    }
+    div#interface {
+        height: 100%;
+        width: 100%;
+        //border: 1px solid black;
+    }
+
+    div#info {
+        position: relative;
+        top: 60%;
+        margin: auto;
+        background-color:white;
+                     
+    }
+    
+    .p{
+       font-family: 'Courier New', Courier, monospace
+        
+    }
+
+    img {
+        position: relative;
+        width: 277px;
+        height: 182px;
+
+    }   
+}
